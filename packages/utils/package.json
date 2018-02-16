@@ -1,0 +1,41 @@
+{
+    "name": "@validatorjs/utils",
+    "version": "0.0.0",
+    "description": "Utils for validatorjs.",
+    "keywords": [
+        "utils",
+        "validatorjs"
+    ],
+    "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/utils",
+    "bugs": {
+      "url": "https://github.com/cknow/validatorjs/issues",
+      "email": "ricardo@clicknow.com.br"
+    },
+    "license": "MIT",
+    "author": {
+      "name": "Ricardo Gobbo de Souza",
+      "email": "ricardogobbosouza@yahoo.com.br",
+      "role": "Developer"
+    },
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cknow/validatorjs"
+    },
+    "scripts": {
+      
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {
+      
+    },
+    "engines": {
+      "node": ">=4",
+      "npm": ">=3"
+    },
+    "preferGlobal": false,
+    "private": false
+  }
+  

@@ -1,0 +1,36 @@
+{
+  "name": "@validatorjs/float-type",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/float-type",
+  "bugs": {
+    "url": "https://github.com/cknow/validatorjs/issues",
+    "email": "ricardo@clicknow.com.br"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ricardo Gobbo de Souza",
+    "email": "ricardogobbosouza@yahoo.com.br",
+    "role": "Developer"
+  },
+  "main": "float-type.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cknow/validatorjs"
+  },
+  "scripts": {
+    "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register ./*.test.js",
+    "lint": "cross-env ../../node_modules/.bin/eslint *.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.1.3"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "preferGlobal": false,
+  "private": false
+}
