@@ -15,7 +15,7 @@ npm install --save @validatorjs/float-type
 ## Usage
 
 ```js
-var floatType = require('@validatorjs/float-type');
+const floatType = require('@validatorjs/float-type');
 
 floatType(1.1); // true
 floatType(1); // false

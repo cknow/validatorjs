@@ -15,7 +15,7 @@ npm install --save @validatorjs/string-type
 ## Usage
 
 ```js
-var stringType = require('@validatorjs/string-type');
+const stringType = require('@validatorjs/string-type');
 
 stringType('foo'); // true
 stringType(true); // false

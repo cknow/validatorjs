@@ -15,7 +15,7 @@ npm install --save @validatorjs/null-type
 ## Usage
 
 ```js
-var nullType = require('@validatorjs/null-type');
+const nullType = require('@validatorjs/null-type');
 
 nullType(null); // true
 nullType('foo'); // false

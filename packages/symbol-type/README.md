@@ -15,7 +15,7 @@ npm install --save @validatorjs/symbol-type
 ## Usage
 
 ```js
-var symbolType = require('@validatorjs/symbol-type');
+const symbolType = require('@validatorjs/symbol-type');
 
 symbolType(Symbol('foo')); // true
 symbolType('foo'); // false

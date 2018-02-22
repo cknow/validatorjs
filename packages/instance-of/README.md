@@ -1,6 +1,6 @@
 # InstanceOf
 
-> Evaluates a instance on the input and validates if matches.
+> Evaluates instance on the input and validates if matches with instance.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/instance-of.svg)](https://www.npmjs.com/package/@validatorjs/instance-of)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/instance-of.svg)](https://www.npmjs.com/package/@validatorjs/instance-of)
@@ -15,7 +15,7 @@ npm install --save @validatorjs/instance-of
 ## Usage
 
 ```js
-var instanceOf = require('@validatorjs/instance-of');
+const instanceOf = require('@validatorjs/instance-of');
 
 instanceOf('foo', [String]); // true
 instanceOf('foo', [Number]); // false

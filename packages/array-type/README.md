@@ -15,7 +15,7 @@ npm install --save @validatorjs/array-type
 ## Usage
 
 ```js
-var arrayType = require('@validatorjs/array-type');
+const arrayType = require('@validatorjs/array-type');
 
 arrayType([1, 2, 3]); // true
 arrayType('foo'); // false

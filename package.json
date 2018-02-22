@@ -4,12 +4,15 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
     "coverage": "lerna run coverage",
     "lint": "lerna run lint",
     "test": "lerna run test"
   },
   "devDependencies": {
     "@cknow/eslint-config": "^2.9.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
@@ -18,6 +21,7 @@
     "lerna": "^2.9.0",
     "mocha": "^5.0.1",
     "mocha-each": "^1.1.0",
-    "nyc": "^11.4.1"
+    "nyc": "^11.4.1",
+    "rimraf": "^2.6.2"
   }
 }

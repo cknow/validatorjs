@@ -15,7 +15,7 @@ npm install --save @validatorjs/boolean-type
 ## Usage
 
 ```js
-var booleanType = require('@validatorjs/boolean-type');
+const booleanType = require('@validatorjs/boolean-type');
 
 booleanType(true); // true
 booleanType('foo'); // false

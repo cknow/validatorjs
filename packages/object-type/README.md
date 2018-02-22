@@ -15,7 +15,7 @@ npm install --save @validatorjs/object-type
 ## Usage
 
 ```js
-var objectType = require('@validatorjs/object-type');
+const objectType = require('@validatorjs/object-type');
 
 objectType({}); // true
 objectType('foo'); // false

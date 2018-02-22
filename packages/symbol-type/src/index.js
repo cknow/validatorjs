@@ -1,5 +1,10 @@
-'use strict';
-
-const typeOf = require('@validatorjs/type-of');
-
-module.exports = input => typeOf(input, ['symbol']);
+/**
+ * Validates whether the type of an input is symbol.
+ *
+ * @param {*} input Input to validate.
+ *
+ * @return {boolean} Returns true if validate otherwise false.
+ */
+export default function symbolType(input) {
+    return typeof input === 'symbol';
+}
