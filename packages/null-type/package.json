@@ -1,15 +1,15 @@
 {
-  "name": "@validatorjs/float-type",
+  "name": "@validatorjs/null-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is float.",
+  "description": "Validates whether the type of an input is null.",
   "keywords": [
     "validatorjs",
     "rule",
-    "float-type",
-    "float",
+    "null-type",
+    "null",
     "type"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/float-type",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/null-type",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"

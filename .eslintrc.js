@@ -4,7 +4,6 @@ module.exports = {
         '@cknow/eslint-config/plugins/mocha'
     ],
     rules: {
-        'require-jsdoc': 'off',
         'mocha/no-mocha-arrows': 'off'
     }
 };

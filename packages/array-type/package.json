@@ -1,15 +1,15 @@
 {
-  "name": "@validatorjs/float-type",
+  "name": "@validatorjs/array-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is float.",
+  "description": "Validates whether the type of an input is array.",
   "keywords": [
     "validatorjs",
     "rule",
-    "float-type",
-    "float",
+    "array-type",
+    "array",
     "type"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/float-type",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/array-type",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"

@@ -1,15 +1,15 @@
 {
-  "name": "@validatorjs/float-type",
+  "name": "@validatorjs/symbol-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is float.",
+  "description": "Validates whether the type of an input is symbol.",
   "keywords": [
     "validatorjs",
     "rule",
-    "float-type",
-    "float",
+    "symbol-type",
+    "symbol",
     "type"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/float-type",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/symbol-type",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
@@ -34,7 +34,9 @@
     "pretest": "npm run lint",
     "test": "../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@validatorjs/type-of": "^0.0.0"
+  },
   "devDependencies": {
     "@validatorjs/test": "^0.0.0"
   },

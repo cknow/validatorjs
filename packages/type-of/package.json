@@ -1,15 +1,13 @@
 {
-  "name": "@validatorjs/float-type",
+  "name": "@validatorjs/type-of",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is float.",
+  "description": "Evaluates a regex on the type of input and validates if matches.",
   "keywords": [
     "validatorjs",
     "rule",
-    "float-type",
-    "float",
-    "type"
+    "type-of"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/float-type",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/type-of",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
@@ -35,9 +33,7 @@
     "test": "../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@validatorjs/test": "^0.0.0"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=4",
     "npm": ">=3"

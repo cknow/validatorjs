@@ -1,15 +1,15 @@
 {
-  "name": "@validatorjs/float-type",
+  "name": "@validatorjs/undefined-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is float.",
+  "description": "Validates whether the type of an input is undefined.",
   "keywords": [
     "validatorjs",
     "rule",
-    "float-type",
-    "float",
+    "undefined-type",
+    "undefined",
     "type"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/float-type",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/undefined-type",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
@@ -34,7 +34,9 @@
     "pretest": "npm run lint",
     "test": "../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@validatorjs/type-of": "^0.0.0"
+  },
   "devDependencies": {
     "@validatorjs/test": "^0.0.0"
   },
