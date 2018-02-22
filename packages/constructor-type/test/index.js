@@ -14,7 +14,8 @@ describe('ConstructorType', () => {
     forEach([
         ['foo', Number],
         [10, Boolean],
-        [true, String]
+        [true, String],
+        [null, null]
     ]).it('invalid with a value: %s', (value, type) => {
         assert.isFalse(constructorType(value, [type]));
     });

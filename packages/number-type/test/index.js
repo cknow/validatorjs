@@ -1,7 +1,12 @@
 import { assert } from 'chai';
-import { getTypes, numberTypes } from '@validatorjs/test';
+import { getTypes, floatTypes, intTypes } from '@validatorjs/test';
 import forEach from 'mocha-each';
 import numberType from '../src';
+
+const numberTypes = [
+    ...floatTypes,
+    ...intTypes
+];
 
 describe('NumberType', () => {
     forEach(numberTypes).it('valid with a value: %s', value => {

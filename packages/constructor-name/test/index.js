@@ -17,7 +17,8 @@ describe('ConstructorName', () => {
     forEach([
         [new Foo(), 'object'],
         ['foo', 'number'],
-        [10, 'string']
+        [10, 'string'],
+        [null, null]
     ]).it('invalid with a value: %s', (value, name) => {
         assert.isFalse(constructorName(value, [name]));
     });

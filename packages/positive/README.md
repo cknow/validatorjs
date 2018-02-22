@@ -18,5 +18,5 @@ npm install --save @validatorjs/positive
 const positive = require('@validatorjs/positive');
 
 positive(12345); // true
-positive('foo'); // false
+positive(-12345); // false
 ```
