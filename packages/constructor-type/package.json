@@ -41,7 +41,9 @@
     "pretest": "npm run lint",
     "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@validatorjs/util": "^0.0.0"
+  },
   "devDependencies": {
     "cross-env": "^5.1.3"
   },

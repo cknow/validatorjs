@@ -1,11 +1,10 @@
 import { assert } from 'chai';
-import { getTypes, floatTypes, intTypes, stringTypes, symbolTypes, undefinedTypes } from '@validatorjs/test';
+import { getTypes, numberTypes, stringTypes, symbolTypes, undefinedTypes } from '@validatorjs/test';
 import forEach from 'mocha-each';
 import symbolVal from '../src';
 
 const symbolValTypes = [
-    ...floatTypes,
-    ...intTypes,
+    ...numberTypes,
     ...stringTypes,
     ...symbolTypes,
     ...undefinedTypes

@@ -1,3 +1,5 @@
+import { getConstructor } from '@validatorjs/util';
+
 /**
  * Validates whether the type of an input is object.
  *
@@ -6,5 +8,5 @@
  * @return {boolean} Returns true if validate otherwise false.
  */
 export default function objectType(input) {
-    return Boolean(input) && typeof input === 'object' && input.constructor === Object;
+    return getConstructor(input) === Object;
 }

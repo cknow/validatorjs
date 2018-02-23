@@ -17,6 +17,6 @@ npm install --save @validatorjs/number-val
 ```js
 const numberVal = require('@validatorjs/number-val');
 
-numberVal(12345); // true
+numberVal('12345'); // true
 numberVal('foo'); // false
 ```

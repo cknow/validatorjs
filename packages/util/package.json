@@ -1,15 +1,13 @@
 {
-  "name": "@validatorjs/constructor-name",
+  "name": "@validatorjs/util",
   "version": "0.0.0",
-  "description": "Evaluates constructor name of on the input and validates if matches with constructor name.",
+  "description": "",
   "keywords": [
     "validatorjs",
     "rule",
-    "constructor-name",
-    "constructor",
-    "name"
+    "util"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/constructor-name",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/util",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"

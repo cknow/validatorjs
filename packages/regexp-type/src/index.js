@@ -6,5 +6,5 @@
  * @return {boolean} Returns true if validate otherwise false.
  */
 export default function regexpType(input) {
-    return Boolean(input) && typeof input === 'object' && input.constructor === RegExp;
+    return input instanceof RegExp;
 }

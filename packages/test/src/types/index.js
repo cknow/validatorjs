@@ -5,6 +5,7 @@ export * from './float-types';
 export * from './function-types';
 export * from './int-types';
 export * from './null-types';
+export * from './number-types';
 export * from './object-types';
 export * from './regexp-types';
 export * from './string-types';

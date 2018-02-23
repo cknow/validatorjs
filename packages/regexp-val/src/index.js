@@ -1,5 +1,3 @@
-import tryCatch from '@validatorjs/try-catch';
-
 /**
  * Validates whether the value of input is regex.
  *
@@ -8,9 +6,11 @@ import tryCatch from '@validatorjs/try-catch';
  * @return {boolean} Returns true if validate otherwise false.
  */
 export default function regexpVal(input) {
-    return tryCatch(value => {
+    try {
         RegExp(input);
 
         return true;
-    }, [input]);
+    } catch (e) {}
+
+    return false;
 }

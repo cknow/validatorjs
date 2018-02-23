@@ -1,15 +1,15 @@
 {
-  "name": "@validatorjs/constructor-name",
+  "name": "@validatorjs/true-val",
   "version": "0.0.0",
-  "description": "Evaluates constructor name of on the input and validates if matches with constructor name.",
+  "description": "Validates whether the value of input is true.",
   "keywords": [
     "validatorjs",
     "rule",
-    "constructor-name",
-    "constructor",
-    "name"
+    "true-val",
+    "true",
+    "val"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/constructor-name",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/true-val",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
@@ -41,8 +41,11 @@
     "pretest": "npm run lint",
     "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@validatorjs/util": "^0.0.0"
+  },
   "devDependencies": {
+    "@validatorjs/test": "^0.0.0",
     "cross-env": "^5.1.3"
   },
   "engines": {

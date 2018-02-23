@@ -1,11 +1,10 @@
 import { assert } from 'chai';
-import { getTypes, floatTypes, intTypes } from '@validatorjs/test';
+import { getTypes, numberTypes } from '@validatorjs/test';
 import forEach from 'mocha-each';
 import numberVal from '../src';
 
 const numberValTypes = [
-    ...floatTypes,
-    ...intTypes,
+    ...numberTypes,
     '0',
     '1',
     '1.0',

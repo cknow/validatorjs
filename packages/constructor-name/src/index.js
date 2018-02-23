@@ -1,5 +1,3 @@
-import tryCatch from '@validatorjs/try-catch';
-
 /**
  * Evaluates constructor name of on the input and validates if matches with constructor name.
  *
@@ -9,10 +7,9 @@ import tryCatch from '@validatorjs/try-catch';
  * @return {boolean} Returns true if validate otherwise false.
  */
 export default function constructorName(input, [name]) {
-    return tryCatch((value, o) => {
-        const name1 = String(value.constructor.name).toLocaleLowerCase();
-        const name2 = String(o).toLocaleLowerCase();
+    try {
+        return String(input.constructor.name).toLocaleLowerCase() === String(name).toLocaleLowerCase();
+    } catch (e) {}
 
-        return name1 === name2;
-    }, [input, name]);
+    return false;
 }
