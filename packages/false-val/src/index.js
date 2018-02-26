@@ -1,4 +1,4 @@
-import { arraySearch } from '@validatorjs/util';
+import search from '@validatorjs/search';
 
 /**
  * Validates whether the value of input is false.
@@ -8,5 +8,5 @@ import { arraySearch } from '@validatorjs/util';
  * @return {boolean} Returns true if validate otherwise false.
  */
 export default function falseVal(input) {
-    return arraySearch([0, false, 'off', 'no', 'n', ''], input);
+    return search(input, [[0, false, 'off', 'no', 'n', '']]);
 }

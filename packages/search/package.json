@@ -1,15 +1,13 @@
 {
-  "name": "@validatorjs/false-val",
+  "name": "@validatorjs/search",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is false.",
+  "description": "Validates whether the type of an input is undefined.",
   "keywords": [
     "validatorjs",
     "rule",
-    "false-val",
-    "false",
-    "val"
+    "search"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/false-val",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/search",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
@@ -42,10 +40,9 @@
     "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
   "dependencies": {
-    "@validatorjs/search": "^0.0.0"
+    "@validatorjs/scalar": "^0.0.0"
   },
   "devDependencies": {
-    "@validatorjs/test": "^0.0.0",
     "cross-env": "^5.1.3"
   },
   "engines": {

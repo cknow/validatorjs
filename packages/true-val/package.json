@@ -42,7 +42,7 @@
     "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
   "dependencies": {
-    "@validatorjs/util": "^0.0.0"
+    "@validatorjs/search": "^0.0.0"
   },
   "devDependencies": {
     "@validatorjs/test": "^0.0.0",
