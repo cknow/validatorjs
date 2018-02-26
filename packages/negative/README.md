@@ -14,6 +14,8 @@ npm install --save @validatorjs/negative
 
 ## Usage
 
+- `negative(input)`
+
 ```js
 const negative = require('@validatorjs/negative');
 

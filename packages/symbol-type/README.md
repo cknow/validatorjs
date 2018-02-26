@@ -14,6 +14,8 @@ npm install --save @validatorjs/symbol-type
 
 ## Usage
 
+- `symbolType(input)`
+
 ```js
 const symbolType = require('@validatorjs/symbol-type');
 

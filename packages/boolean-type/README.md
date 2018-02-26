@@ -14,6 +14,8 @@ npm install --save @validatorjs/boolean-type
 
 ## Usage
 
+- `booleanType(input)`
+
 ```js
 const booleanType = require('@validatorjs/boolean-type');
 

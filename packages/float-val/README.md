@@ -14,6 +14,8 @@ npm install --save @validatorjs/float-val
 
 ## Usage
 
+- `floatVal(input)`
+
 ```js
 const floatVal = require('@validatorjs/float-val');
 

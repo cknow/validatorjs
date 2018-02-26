@@ -14,6 +14,8 @@ npm install --save @validatorjs/instance-of
 
 ## Usage
 
+- `instanceOf(input, [instance])`
+
 ```js
 const instanceOf = require('@validatorjs/instance-of');
 

@@ -14,6 +14,8 @@ npm install --save @validatorjs/object-type
 
 ## Usage
 
+- `objectType(input)`
+
 ```js
 const objectType = require('@validatorjs/object-type');
 

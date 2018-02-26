@@ -14,6 +14,8 @@ npm install --save @validatorjs/int-type
 
 ## Usage
 
+- `intType(input)`
+
 ```js
 const intType = require('@validatorjs/int-type');
 

@@ -14,6 +14,8 @@ npm install --save @validatorjs/number-type
 
 ## Usage
 
+- `numberType(input)`
+
 ```js
 const numberType = require('@validatorjs/number-type');
 

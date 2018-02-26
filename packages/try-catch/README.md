@@ -14,6 +14,8 @@ npm install --save @validatorjs/try-catch
 
 ## Usage
 
+- `tryCatch(input)`
+
 ```js
 const tryCatch = require('@validatorjs/try-catch');
 

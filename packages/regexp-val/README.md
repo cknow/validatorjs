@@ -14,6 +14,8 @@ npm install --save @validatorjs/regexp-val
 
 ## Usage
 
+- `regexpVal(input)`
+
 ```js
 const regexpVal = require('@validatorjs/regexp-val');
 

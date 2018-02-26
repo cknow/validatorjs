@@ -14,6 +14,8 @@ npm install --save @validatorjs/string-type
 
 ## Usage
 
+- `stringType(input)`
+
 ```js
 const stringType = require('@validatorjs/string-type');
 

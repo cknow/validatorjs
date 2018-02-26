@@ -14,6 +14,8 @@ npm install --save @validatorjs/undefined-type
 
 ## Usage
 
+- `undefinedType(input)`
+
 ```js
 const undefinedType = require('@validatorjs/undefined-type');
 

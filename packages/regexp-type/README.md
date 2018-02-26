@@ -14,6 +14,8 @@ npm install --save @validatorjs/regexp-type
 
 ## Usage
 
+- `regexpType(input)`
+
 ```js
 const regexpType = require('@validatorjs/regexp-type');
 

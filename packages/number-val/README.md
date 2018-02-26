@@ -14,6 +14,8 @@ npm install --save @validatorjs/number-val
 
 ## Usage
 
+- `numberVal(input)`
+
 ```js
 const numberVal = require('@validatorjs/number-val');
 

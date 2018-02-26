@@ -14,6 +14,8 @@ npm install --save @validatorjs/scalar
 
 ## Usage
 
+- `scalar(input)`
+
 ```js
 const scalar = require('@validatorjs/scalar');
 

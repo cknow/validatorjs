@@ -14,6 +14,10 @@ npm install --save @validatorjs/search
 
 ## Usage
 
+- `search(input, [searcher])`
+- `search(input, [searcher, identical = false])`
+- `search(input, [searcher, identical = false, contains = false])`
+
 ```js
 const search = require('@validatorjs/search');
 

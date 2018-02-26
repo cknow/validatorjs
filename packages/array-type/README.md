@@ -14,6 +14,8 @@ npm install --save @validatorjs/array-type
 
 ## Usage
 
+- `arrayType(input)`
+
 ```js
 const arrayType = require('@validatorjs/array-type');
 

@@ -14,6 +14,8 @@ npm install --save @validatorjs/function-type
 
 ## Usage
 
+- `functionType(input)`
+
 ```js
 const functionType = require('@validatorjs/function-type');
 

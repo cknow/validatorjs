@@ -14,6 +14,8 @@ npm install --save @validatorjs/positive
 
 ## Usage
 
+- `positive(input)`
+
 ```js
 const positive = require('@validatorjs/positive');
 

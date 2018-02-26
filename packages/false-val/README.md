@@ -14,6 +14,8 @@ npm install --save @validatorjs/false-val
 
 ## Usage
 
+- `falseVal(input)`
+
 ```js
 const falseVal = require('@validatorjs/false-val');
 

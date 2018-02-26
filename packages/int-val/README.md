@@ -14,6 +14,8 @@ npm install --save @validatorjs/int-val
 
 ## Usage
 
+- `intVal(input)`
+
 ```js
 const intVal = require('@validatorjs/int-val');
 

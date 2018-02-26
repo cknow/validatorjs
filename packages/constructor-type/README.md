@@ -14,6 +14,8 @@ npm install --save @validatorjs/constructor-type
 
 ## Usage
 
+- `constructorType(input, [type])`
+
 ```js
 const constructorType = require('@validatorjs/constructor-type');
 

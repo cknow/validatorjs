@@ -14,6 +14,8 @@ npm install --save @validatorjs/true-val
 
 ## Usage
 
+- `trueVal(input)`
+
 ```js
 const trueVal = require('@validatorjs/true-val');
 

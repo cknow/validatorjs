@@ -14,6 +14,8 @@ npm install --save @validatorjs/constructor-name
 
 ## Usage
 
+- `constructorName(input, [name])`
+
 ```js
 const constructorName = require('@validatorjs/constructor-name');
 

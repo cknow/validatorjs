@@ -14,6 +14,8 @@ npm install --save @validatorjs/date-type
 
 ## Usage
 
+- `dateType(input)`
+
 ```js
 const dateType = require('@validatorjs/date-type');
 

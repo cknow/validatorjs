@@ -14,6 +14,8 @@ npm install --save @validatorjs/type-of
 
 ## Usage
 
+- `typeOf(input, [type])`
+
 ```js
 const typeOf = require('@validatorjs/type-of');
 

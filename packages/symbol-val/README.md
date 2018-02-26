@@ -14,6 +14,8 @@ npm install --save @validatorjs/symbol-val
 
 ## Usage
 
+- `symbolVal(input)`
+
 ```js
 const symbolVal = require('@validatorjs/symbol-val');
 
