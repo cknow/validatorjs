@@ -1,14 +1,18 @@
 import scalar from '@validatorjs/scalar';
 
 /**
- * Validates whether the type of an input is undefined.
+ * Validates whether the value of input is found in the search engine.
  *
  * @param {*} input Input to validate.
+ * @param {*} searcher Searcher engine.
+ * @param {boolean} [identical=false] If identical, compare searcher type with input type.
+ * @param {boolean} [contains=false] If contains, search in the searcher the input.
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
 export default function search(input, [searcher, identical = false, contains = false] = []) {
-    if (scalar(searcher)) {
+    if (scalar(searcher) && scalar(input)) {
+        /* istanbul ignore next */
         if (identical && typeof searcher !== typeof input) {
             return false;
         }
@@ -22,5 +26,5 @@ export default function search(input, [searcher, identical = false, contains = f
         return searcher.findIndex(item => search(input, [item, identical, contains])) !== -1;
     }
 
-    return searcher === input;
+    return JSON.stringify(searcher) === JSON.stringify(input);
 }

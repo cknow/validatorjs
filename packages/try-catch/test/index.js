@@ -7,8 +7,8 @@ describe('TryCatch', () => {
         [() => true],
         [arg => arg === 'foo', 'foo'],
         [(arg1, arg2) => arg1 === arg2, 'foo', 'foo']
-    ]).it('valid with a value:', (value, ...args) => {
-        assert.isTrue(tryCatch(value, args));
+    ]).it('valid', (value, ...args) => {
+        assert.isTrue(tryCatch(value, args.length > 0 ? args : undefined));
     });
 
     forEach([
@@ -17,7 +17,7 @@ describe('TryCatch', () => {
         [() => {
             throw new Error('error');
         }]
-    ]).it('invalid with a value:', (value, ...args) => {
-        assert.isFalse(tryCatch(value, args));
+    ]).it('invalid', (value, ...args) => {
+        assert.isFalse(tryCatch(value, args.length > 0 ? args : undefined));
     });
 });

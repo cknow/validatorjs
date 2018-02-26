@@ -10,7 +10,7 @@ describe('ConstructorName', () => {
         [new Foo(), 'foo'],
         ['foo', 'string'],
         [10, 'number']
-    ]).it('valid with a value: %s', (value, name) => {
+    ]).it('valid "%2$s" with a value: %1$s', (value, name) => {
         assert.isTrue(constructorName(value, [name]));
     });
 
@@ -19,7 +19,7 @@ describe('ConstructorName', () => {
         ['foo', 'number'],
         [10, 'string'],
         [null, null]
-    ]).it('invalid with a value: %s', (value, name) => {
+    ]).it('invalid "%2$s" with a value: %1$s', (value, name) => {
         assert.isFalse(constructorName(value, [name]));
     });
 });

@@ -7,7 +7,7 @@ describe('ConstructorType', () => {
         [/^/, RegExp],
         [{}, Object],
         [[], Array]
-    ]).it('valid with a value: %s', (value, type) => {
+    ]).it('valid "%2$s" with a value: %1$s', (value, type) => {
         assert.isTrue(constructorType(value, [type]));
     });
 
@@ -16,7 +16,7 @@ describe('ConstructorType', () => {
         [10, Boolean],
         [true, String],
         [null, null]
-    ]).it('invalid with a value: %s', (value, type) => {
+    ]).it('invalid "%2$s" with a value: %1$s', (value, type) => {
         assert.isFalse(constructorType(value, [type]));
     });
 });

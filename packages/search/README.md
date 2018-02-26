@@ -1,6 +1,6 @@
 # Search
 
-> Validates whether the type of an input is undefined.
+> Validates whether the value of input is found in the search engine.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/search.svg)](https://www.npmjs.com/package/@validatorjs/search)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/search.svg)](https://www.npmjs.com/package/@validatorjs/search)

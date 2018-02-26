@@ -7,7 +7,7 @@ describe('InstanceOf', () => {
         [/^/, RegExp],
         [{}, Object],
         [[], Array]
-    ]).it('valid with a value: %s', (value, instance) => {
+    ]).it('valid "%2$s" with a value: %1$s', (value, instance) => {
         assert.isTrue(instanceOf(value, [instance]));
     });
 
@@ -15,7 +15,7 @@ describe('InstanceOf', () => {
         ['foo', Number],
         [10, Boolean],
         [true, String]
-    ]).it('invalid with a value: %s', (value, instance) => {
+    ]).it('invalid "%2$s" with a value: %1$s', (value, instance) => {
         assert.isFalse(instanceOf(value, [instance]));
     });
 });

@@ -6,16 +6,18 @@ describe('TypeOf', () => {
     forEach([
         ['foo', 'string'],
         [10, 'number'],
-        [true, 'boolean']
-    ]).it('valid with a value: %s', (value, type) => {
+        [true, 'boolean'],
+        [undefined, 'undefined']
+    ]).it('valid "%2$s" with a value: %1$s', (value, type) => {
         assert.isTrue(typeOf(value, [type]));
     });
 
     forEach([
         ['foo', 'number'],
         [10, 'boolean'],
-        [true, 'string']
-    ]).it('invalid with a value: %s', (value, type) => {
+        [true, 'string'],
+        [undefined]
+    ]).it('invalid "%2$s" with a value: %1$s', (value, type) => {
         assert.isFalse(typeOf(value, [type]));
     });
 });
