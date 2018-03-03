@@ -1,0 +1,39 @@
+import { assert } from 'chai';
+import { getTypes } from '@validatorjs/test';
+import forEach from 'mocha-each';
+import cpf from '../src';
+
+describe('Cpf', () => {
+    forEach([
+        '342.444.198-88',
+        '342.444.198.88',
+        '350.45261819',
+        '693-319-118-40',
+        '3.6.8.8.9.2.5.5.4.8.8',
+        '11598647644',
+        '86734718697',
+        '86223423284',
+        '24845408333',
+        '95574461102'
+    ]).it('valid with a value: %s', value => {
+        assert.isTrue(cpf(value));
+    });
+
+    forEach([
+        '000.000.000-00',
+        '111.222.444-05',
+        '999999999.99',
+        '8.8.8.8.8.8.8.8.8.8.8',
+        '693-319-110-40',
+        '698.111-111.00',
+        '11111111111',
+        '22222222222',
+        '12345678900',
+        '99299929384',
+        '84434895894',
+        '44242340000',
+        ...getTypes()
+    ]).it('invalid with a value: %s', value => {
+        assert.isFalse(cpf(value));
+    });
+});
