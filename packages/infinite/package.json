@@ -1,13 +1,13 @@
 {
-  "name": "@validatorjs/pesel",
+  "name": "@validatorjs/infinite",
   "version": "0.0.0",
-  "description": "Validates if the given input is a pesel.",
+  "description": "Validates if the given input is a infinite.",
   "keywords": [
     "validatorjs",
     "rule",
-    "pesel"
+    "infinite"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/pesel",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/infinite",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
@@ -39,9 +39,7 @@
     "pretest": "npm run lint",
     "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
-  "dependencies": {
-    "@validatorjs/util": "^0.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@validatorjs/test": "^0.0.0",
     "cross-env": "^5.1.3"

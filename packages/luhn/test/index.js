@@ -10,7 +10,7 @@ describe('Luhn', () => {
         '6011000990139424',
         '2223000048400011'
     ]).it('valid with a value: %s', value => {
-        assert.isTrue(luhn(value));
+        assert.isTrue(luhn(value, [0]));
     });
 
     forEach([

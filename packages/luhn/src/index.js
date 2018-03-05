@@ -7,8 +7,8 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function luhn(input) {
-    if (!(input = parseToCalculate(input))) {
+export default function luhn(input, [length = 0] = []) {
+    if (!(input = parseToCalculate(input, length))) {
         return false;
     }
 

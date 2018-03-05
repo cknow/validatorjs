@@ -1,24 +1,24 @@
-# PerfectSquare
+# Pesel
 
-> Validates if the given input is a perfect square.
+> Validates if the given input is a pesel.
 
-[![NPM Version](https://img.shields.io/npm/v/@validatorjs/perfect-square.svg)](https://www.npmjs.com/package/@validatorjs/perfect-square)
-[![Downloads](https://img.shields.io/npm/dt/@validatorjs/perfect-square.svg)](https://www.npmjs.com/package/@validatorjs/perfect-square)
-[![MIT License](https://img.shields.io/npm/l/@validatorjs/perfect-square.svg)](../../LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/@validatorjs/pesel.svg)](https://www.npmjs.com/package/@validatorjs/pesel)
+[![Downloads](https://img.shields.io/npm/dt/@validatorjs/pesel.svg)](https://www.npmjs.com/package/@validatorjs/pesel)
+[![MIT License](https://img.shields.io/npm/l/@validatorjs/pesel.svg)](../../LICENSE)
 
 ## Installation
 
 ```bash
-npm install --save @validatorjs/perfect-square
+npm install --save @validatorjs/pesel
 ```
 
 ## Usage
 
-- `perfectSquare(input)`
+- `pesel(input)`
 
 ```js
-const perfectSquare = require('@validatorjs/perfect-square');
+const pesel = require('@validatorjs/pesel');
 
-perfectSquare(9); // true
-perfectSquare(6); // false
+pesel('49040501580'); // true
+pesel('21120209251'); // false
 ```

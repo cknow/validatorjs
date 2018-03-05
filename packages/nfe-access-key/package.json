@@ -1,13 +1,16 @@
 {
-  "name": "@validatorjs/pesel",
+  "name": "@validatorjs/nfe-access-key",
   "version": "0.0.0",
-  "description": "Validates if the given input is a pesel.",
+  "description": "Validates if the given input is a nfe access key.",
   "keywords": [
     "validatorjs",
     "rule",
-    "pesel"
+    "nfe-access-key",
+    "nfe",
+    "access",
+    "key"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/pesel",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/nfe-access-key",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
