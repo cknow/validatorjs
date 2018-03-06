@@ -1,0 +1,56 @@
+{
+  "name": "@validatorjs/fibonacci",
+  "version": "0.0.0",
+  "description": "Validates if the given input is a fibonacci.",
+  "keywords": [
+    "validatorjs",
+    "rule",
+    "fibonacci"
+  ],
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/fibonacci",
+  "bugs": {
+    "url": "https://github.com/cknow/validatorjs/issues",
+    "email": "ricardo@clicknow.com.br"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ricardo Gobbo de Souza",
+    "email": "ricardogobbosouza@yahoo.com.br",
+    "role": "Developer"
+  },
+  "files": [
+    "build/"
+  ],
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cknow/validatorjs"
+  },
+  "scripts": {
+    "build": "cross-env ../../node_modules/.bin/babel src -d build",
+    "clean": "npm run clean:build && npm run clean:coverage",
+    "clean:build": "cross-env ../../node_modules/.bin/rimraf build",
+    "clean:coverage": "cross-env ../../node_modules/.bin/rimraf .nyc_output coverage",
+    "coverage": "cross-env ../../node_modules/.bin/nyc --reporter lcov --reporter text npm run test",
+    "lint": "cross-env ../../node_modules/.bin/eslint src test",
+    "prebuild": "npm run clean:build",
+    "precoverage": "npm run clean:coverage",
+    "prepublish": "npm run build",
+    "pretest": "npm run lint",
+    "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register test"
+  },
+  "dependencies": {
+    "@validatorjs/number-val": "^0.0.0"
+  },
+  "devDependencies": {
+    "@validatorjs/test": "^0.0.0",
+    "cross-env": "^5.1.3"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
