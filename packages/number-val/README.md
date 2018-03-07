@@ -1,6 +1,6 @@
 # NumberVal
 
-> Validates whether the value of input is number.
+> Validates whether the value of input is a number.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/number-val.svg)](https://www.npmjs.com/package/@validatorjs/number-val)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/number-val.svg)](https://www.npmjs.com/package/@validatorjs/number-val)

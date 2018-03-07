@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is undefined.
+ * Validates whether the type of an input is a undefined.
  *
  * @param {*} input Input to validate.
  *

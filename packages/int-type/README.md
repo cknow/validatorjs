@@ -1,6 +1,6 @@
 # IntType
 
-> Validates whether the type of an input is int.
+> Validates whether the type of an input is a int.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/int-type.svg)](https://www.npmjs.com/package/@validatorjs/int-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/int-type.svg)](https://www.npmjs.com/package/@validatorjs/int-type)

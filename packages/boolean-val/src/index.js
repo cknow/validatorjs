@@ -2,7 +2,7 @@ import falseVal from '@validatorjs/false-val';
 import trueVal from '@validatorjs/true-val';
 
 /**
- * Validates whether the value of input is boolean.
+ * Validates whether the value of input is a boolean.
  *
  * @param {*} input Input to validate.
  *

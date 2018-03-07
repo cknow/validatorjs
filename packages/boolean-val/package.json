@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/boolean-val",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is boolean.",
+  "description": "Validates whether the value of input is a boolean.",
   "keywords": [
     "validatorjs",
     "rule",

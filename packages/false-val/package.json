@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/false-val",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is false.",
+  "description": "Validates whether the value of input is a false.",
   "keywords": [
     "validatorjs",
     "rule",

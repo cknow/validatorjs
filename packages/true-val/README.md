@@ -1,6 +1,6 @@
 # TrueVal
 
-> Validates whether the value of input is true.
+> Validates whether the value of input is a true.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/true-val.svg)](https://www.npmjs.com/package/@validatorjs/true-val)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/true-val.svg)](https://www.npmjs.com/package/@validatorjs/true-val)

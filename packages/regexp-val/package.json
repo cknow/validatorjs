@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/regexp-val",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is regex.",
+  "description": "Validates whether the value of input is a regex.",
   "keywords": [
     "validatorjs",
     "rule",

@@ -1,6 +1,6 @@
 # NumberType
 
-> Validates whether the type of an input is number.
+> Validates whether the type of an input is a number.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/number-type.svg)](https://www.npmjs.com/package/@validatorjs/number-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/number-type.svg)](https://www.npmjs.com/package/@validatorjs/number-type)

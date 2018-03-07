@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/array-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is array.",
+  "description": "Validates whether the type of an input is a array.",
   "keywords": [
     "validatorjs",
     "rule",

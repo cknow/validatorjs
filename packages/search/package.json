@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/search",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is found in the search engine.",
+  "description": "Validates if the given input is a found in the search engine.",
   "keywords": [
     "validatorjs",
     "rule",

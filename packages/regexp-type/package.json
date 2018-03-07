@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/regexp-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is regexp.",
+  "description": "Validates whether the type of an input is a regexp.",
   "keywords": [
     "validatorjs",
     "rule",

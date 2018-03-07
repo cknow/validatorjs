@@ -1,6 +1,6 @@
 # NullType
 
-> Validates whether the type of an input is null.
+> Validates whether the type of an input is a null.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/null-type.svg)](https://www.npmjs.com/package/@validatorjs/null-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/null-type.svg)](https://www.npmjs.com/package/@validatorjs/null-type)

@@ -1,5 +1,5 @@
 /**
- * Validates whether the value of input is symbol.
+ * Validates whether the value of input is a symbol.
  *
  * @param {*} input Input to validate.
  *

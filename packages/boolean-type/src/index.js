@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is boolean.
+ * Validates whether the type of an input is a boolean.
  *
  * @param {*} input Input to validate.
  *

@@ -1,6 +1,6 @@
 # ObjectType
 
-> Validates whether the type of an input is object.
+> Validates whether the type of an input is a object.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/object-type.svg)](https://www.npmjs.com/package/@validatorjs/object-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/object-type.svg)](https://www.npmjs.com/package/@validatorjs/object-type)

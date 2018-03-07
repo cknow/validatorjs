@@ -1,6 +1,6 @@
 # FloatVal
 
-> Validates whether the value of input is float.
+> Validates whether the value of input is a float.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/float-val.svg)](https://www.npmjs.com/package/@validatorjs/float-val)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/float-val.svg)](https://www.npmjs.com/package/@validatorjs/float-val)

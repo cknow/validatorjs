@@ -1,6 +1,6 @@
 # SymbolVal
 
-> Validates whether the value of input is symbol.
+> Validates whether the value of input is a symbol.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/symbol-val.svg)](https://www.npmjs.com/package/@validatorjs/symbol-val)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/symbol-val.svg)](https://www.npmjs.com/package/@validatorjs/symbol-val)

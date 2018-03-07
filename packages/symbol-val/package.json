@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/symbol-val",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is symbol.",
+  "description": "Validates whether the value of input is a symbol.",
   "keywords": [
     "validatorjs",
     "rule",

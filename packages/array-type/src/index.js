@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is array.
+ * Validates whether the type of an input is a array.
  *
  * @param {*} input Input to validate.
  *

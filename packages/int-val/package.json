@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/int-val",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is int.",
+  "description": "Validates whether the value of input is a int.",
   "keywords": [
     "validatorjs",
     "rule",

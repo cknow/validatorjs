@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is function.
+ * Validates whether the type of an input is a function.
  *
  * @param {*} input Input to validate.
  *

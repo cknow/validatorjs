@@ -1,7 +1,7 @@
 import search from '@validatorjs/search';
 
 /**
- * Validates whether the value of input is true.
+ * Validates whether the value of input is a true.
  *
  * @param {*} input Input to validate.
  *

@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/null-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is null.",
+  "description": "Validates whether the type of an input is a null.",
   "keywords": [
     "validatorjs",
     "rule",

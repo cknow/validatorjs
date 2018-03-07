@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/number-val",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is number.",
+  "description": "Validates whether the value of input is a number.",
   "keywords": [
     "validatorjs",
     "rule",

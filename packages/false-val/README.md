@@ -1,6 +1,6 @@
 # FalseVal
 
-> Validates whether the value of input is false.
+> Validates whether the value of input is a false.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/false-val.svg)](https://www.npmjs.com/package/@validatorjs/false-val)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/false-val.svg)](https://www.npmjs.com/package/@validatorjs/false-val)

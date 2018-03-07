@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/undefined-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is undefined.",
+  "description": "Validates whether the type of an input is a undefined.",
   "keywords": [
     "validatorjs",
     "rule",

@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/float-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is float.",
+  "description": "Validates whether the type of an input is a float.",
   "keywords": [
     "validatorjs",
     "rule",

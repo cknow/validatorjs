@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is scalar.
+ * Validates whether the type of an input is a scalar.
  *
  * @param {*} input Input to validate.
  *

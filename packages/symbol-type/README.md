@@ -1,6 +1,6 @@
 # SymbolType
 
-> Validates whether the type of an input is symbol.
+> Validates whether the type of an input is a symbol.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/symbol-type.svg)](https://www.npmjs.com/package/@validatorjs/symbol-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/symbol-type.svg)](https://www.npmjs.com/package/@validatorjs/symbol-type)

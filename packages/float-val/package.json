@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/float-val",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is float.",
+  "description": "Validates whether the value of input is a float.",
   "keywords": [
     "validatorjs",
     "rule",

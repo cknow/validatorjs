@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is float.
+ * Validates whether the type of an input is a float.
  *
  * @param {*} input Input to validate.
  *

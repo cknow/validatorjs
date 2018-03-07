@@ -1,6 +1,6 @@
 # FloatType
 
-> Validates whether the type of an input is float.
+> Validates whether the type of an input is a float.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/float-type.svg)](https://www.npmjs.com/package/@validatorjs/float-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/float-type.svg)](https://www.npmjs.com/package/@validatorjs/float-type)

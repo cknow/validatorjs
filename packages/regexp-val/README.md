@@ -1,6 +1,6 @@
 # RegexpVal
 
-> Validates whether the value of input is regex.
+> Validates whether the value of input is a regex.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/regexp-val.svg)](https://www.npmjs.com/package/@validatorjs/regexp-val)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/regexp-val.svg)](https://www.npmjs.com/package/@validatorjs/regexp-val)

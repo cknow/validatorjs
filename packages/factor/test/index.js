@@ -22,7 +22,7 @@ describe('Factor', () => {
         [6, 6],
         [0, 0],
         [1, 0]
-    ]).it('valid with a value: %s', (value, dividend) => {
+    ]).it('valid "%2$s" with a value: %1$s', (value, dividend) => {
         assert.isTrue(factor(value, [dividend]));
     });
 
@@ -52,7 +52,7 @@ describe('Factor', () => {
         [undefined, -1.5],
         [false, -1.5],
         [null, Number.MAX_SAFE_INTEGER + 1]
-    ]).it('invalid with a value: %s', (value, dividend) => {
+    ]).it('invalid "%2$s" with a value: %1$s', (value, dividend) => {
         assert.isFalse(factor(value, [dividend]));
     });
 });

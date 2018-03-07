@@ -1,5 +1,5 @@
 /**
- * Validates whether the value of input is regex.
+ * Validates whether the value of input is a regex.
  *
  * @param {*} input Input to validate.
  *

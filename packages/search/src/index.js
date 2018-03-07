@@ -1,7 +1,7 @@
 import scalar from '@validatorjs/scalar';
 
 /**
- * Validates whether the value of input is found in the search engine.
+ * Validates if the given input is a found in the search engine.
  *
  * @param {*} input Input to validate.
  * @param {*} searcher Searcher engine.

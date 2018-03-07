@@ -1,6 +1,6 @@
 # IntVal
 
-> Validates whether the value of input is int.
+> Validates whether the value of input is a int.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/int-val.svg)](https://www.npmjs.com/package/@validatorjs/int-val)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/int-val.svg)](https://www.npmjs.com/package/@validatorjs/int-val)

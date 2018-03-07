@@ -1,6 +1,6 @@
 # StringType
 
-> Validates whether the type of an input is string.
+> Validates whether the type of an input is a string.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/string-type.svg)](https://www.npmjs.com/package/@validatorjs/string-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/string-type.svg)](https://www.npmjs.com/package/@validatorjs/string-type)

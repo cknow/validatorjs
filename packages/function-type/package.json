@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/function-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is function.",
+  "description": "Validates whether the type of an input is a function.",
   "keywords": [
     "validatorjs",
     "rule",

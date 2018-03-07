@@ -1,6 +1,6 @@
 # UndefinedType
 
-> Validates whether the type of an input is undefined.
+> Validates whether the type of an input is a undefined.
 
 [![NPM Version](https://img.shields.io/npm/v/@validatorjs/undefined-type.svg)](https://www.npmjs.com/package/@validatorjs/undefined-type)
 [![Downloads](https://img.shields.io/npm/dt/@validatorjs/undefined-type.svg)](https://www.npmjs.com/package/@validatorjs/undefined-type)

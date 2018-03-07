@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/scalar",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is scalar.",
+  "description": "Validates whether the type of an input is a scalar.",
   "keywords": [
     "validatorjs",
     "rule",

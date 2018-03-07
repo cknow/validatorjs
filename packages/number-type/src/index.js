@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is number.
+ * Validates whether the type of an input is a number.
  *
  * @param {*} input Input to validate.
  *

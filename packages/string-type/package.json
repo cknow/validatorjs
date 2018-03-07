@@ -1,7 +1,7 @@
 {
   "name": "@validatorjs/string-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is string.",
+  "description": "Validates whether the type of an input is a string.",
   "keywords": [
     "validatorjs",
     "rule",

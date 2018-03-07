@@ -1,5 +1,5 @@
 /**
- * Validates whether the type of an input is date.
+ * Validates whether the type of an input is a date.
  *
  * @param {*} input Input to validate.
  *
