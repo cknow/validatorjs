@@ -15,6 +15,7 @@ npm install --save @validatorjs/luhn
 ## Usage
 
 - `luhn(input)`
+- `luhn(input, [length = 0])`
 
 ```js
 const luhn = require('@validatorjs/luhn');

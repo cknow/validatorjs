@@ -4,6 +4,7 @@ import { parseToCalculate } from '@validatorjs/util';
  * Validates if the given input is a luhn.
  *
  * @param {*} input Input to validate.
+ * @param {number} [length=0] Length of number.
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
