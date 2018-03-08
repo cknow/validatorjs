@@ -1,14 +1,14 @@
 import { assert } from 'chai';
 import { getTypes, objectTypes } from '@validatorjs/test';
 import forEach from 'mocha-each';
-import objectTypeStrict from '../src';
+import objectConstructor from '../src';
 
-describe('ObjectTypeStrict', () => {
+describe('ObjectConstructor', () => {
     forEach(objectTypes).it('valid with a value: %s', value => {
-        assert.isTrue(objectTypeStrict(value));
+        assert.isTrue(objectConstructor(value));
     });
 
     forEach(getTypes(objectTypes)).it('invalid with a value: %s', value => {
-        assert.isFalse(objectTypeStrict(value));
+        assert.isFalse(objectConstructor(value));
     });
 });

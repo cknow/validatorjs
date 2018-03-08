@@ -7,6 +7,6 @@ import { getConstructor } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function objectTypeStrict(input) {
+export default function objectConstructor(input) {
     return getConstructor(input) === Object;
 }

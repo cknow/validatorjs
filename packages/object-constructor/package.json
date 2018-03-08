@@ -1,16 +1,14 @@
 {
-  "name": "@validatorjs/object-type-strict",
+  "name": "@validatorjs/object-constructor",
   "version": "0.0.0",
   "description": "Validates whether the contructor of input is a object.",
   "keywords": [
     "validatorjs",
     "rule",
-    "object-type-strict",
-    "object",
-    "type",
-    "strict"
+    "object-constructor",
+    "constructor"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/object-type-strict",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/object-constructor",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
