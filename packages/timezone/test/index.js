@@ -9,11 +9,11 @@ describe('Timezone', () => {
         'US/Central',
         'Europe/Paris',
         'UTC'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(timezone(value));
     });
 
-    forEach(getTypes()).it('invalid with a value: %s', value => {
+    forEach(getTypes()).it('invalid with a value: %s', (value) => {
         assert.isFalse(timezone(value));
     });
 });

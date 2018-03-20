@@ -7,7 +7,7 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function cpf(input) {
+export default (input) => {
     if (!(input = parseToCalculate(input, 11))) {
         return false;
     }
@@ -33,4 +33,4 @@ export default function cpf(input) {
     }
 
     return true;
-}
+};

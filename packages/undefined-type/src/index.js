@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function undefinedType(input) {
-    return input === undefined;
-}
+export default (input) => input === undefined;

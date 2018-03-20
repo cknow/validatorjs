@@ -7,7 +7,7 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function cnh(input) {
+export default (input) => {
     if (!(input = parseToCalculate(input, 11))) {
         return false;
     }
@@ -36,4 +36,4 @@ export default function cnh(input) {
     const vl2 = x >= 10 ? 0 : x - dsc;
 
     return `${vl1}${vl2}` === input.substr(-2);
-}
+};

@@ -10,11 +10,11 @@ describe('Json', () => {
         JSON.stringify({}),
         JSON.stringify(['foo']),
         JSON.stringify({ foo: 'bar' })
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(json(value));
     });
 
-    forEach(getTypes()).it('invalid with a value: %s', value => {
+    forEach(getTypes()).it('invalid with a value: %s', (value) => {
         assert.isFalse(json(value));
     });
 });

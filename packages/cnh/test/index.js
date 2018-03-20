@@ -29,7 +29,7 @@ describe('Cnh', () => {
         '03417248301',
         '00670431345',
         '03292694405'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(cnh(value));
     });
 
@@ -115,7 +115,7 @@ describe('Cnh', () => {
         '44242340000',
         '03417248309',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(cnh(value));
     });
 });

@@ -11,11 +11,11 @@ const tldTypes = [
 ];
 
 describe('Tld', () => {
-    forEach(tldTypes).it('valid with a value: %s', value => {
+    forEach(tldTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(tld(value));
     });
 
-    forEach(getTypes(tldTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(tldTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(tld(value));
     });
 });

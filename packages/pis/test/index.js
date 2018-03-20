@@ -16,7 +16,7 @@ describe('Pis', () => {
         '12001842459',
         '12079816782',
         12079816782
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(pis(value));
     });
 
@@ -34,7 +34,7 @@ describe('Pis', () => {
         '84434895894',
         '44242340002',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(pis(value));
     });
 });

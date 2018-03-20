@@ -11,20 +11,23 @@
     "test": "lerna run test"
   },
   "devDependencies": {
-    "@cknow/eslint-config": "^2.10.0",
+    "@cknow/eslint-config": "^2.11.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
-    "cross-env": "^5.1.3",
-    "eslint": "^4.18.2",
-    "eslint-plugin-mocha": "^4.11.0",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.0",
+    "eslint-plugin-mocha": "^4.12.1",
     "eslint-plugin-node": "^6.0.1",
     "lerna": "^2.9.0",
-    "mocha": "^5.0.1",
+    "mocha": "^5.0.4",
     "mocha-each": "^1.1.0",
-    "nyc": "^11.4.1",
+    "nyc": "^11.6.0",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "awesome-validator": "^3.3.3"
   }
 }

@@ -6,6 +6,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function instanceOf(input, [instance]) {
-    return input instanceof instance;
-}
+export default (input, [instance]) => input instanceof instance;

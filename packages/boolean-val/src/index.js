@@ -8,6 +8,4 @@ import trueVal from '@validatorjs/true-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function booleanVal(input) {
-    return falseVal(input) || trueVal(input);
-}
+export default (input) => falseVal(input) || trueVal(input);

@@ -7,7 +7,7 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function pesel(input) {
+export default (input) => {
     if (!(input = parseToCalculate(input, 11))) {
         return false;
     }
@@ -24,4 +24,4 @@ export default function pesel(input) {
     calculateControlNumber = (10 - (calculateControlNumber % 10)) % 10;
 
     return targetControlNumber === calculateControlNumber;
-}
+};

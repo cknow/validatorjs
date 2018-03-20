@@ -17,11 +17,11 @@ const numberValTypes = [
 ];
 
 describe('NumberVal', () => {
-    forEach(numberValTypes).it('valid with a value: %s', value => {
+    forEach(numberValTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(numberVal(value));
     });
 
-    forEach(getTypes(numberValTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(numberValTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(numberVal(value));
     });
 });

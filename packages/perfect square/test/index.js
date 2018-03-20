@@ -15,7 +15,7 @@ describe('PerfectSquare', () => {
         81,
         0,
         2500
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(perfectSquare(value));
     });
 
@@ -30,7 +30,7 @@ describe('PerfectSquare', () => {
         ' ',
         '   ',
         ...getTypes([...numberTypes, ...stringTypes])
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(perfectSquare(value));
     });
 });

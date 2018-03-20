@@ -11,11 +11,11 @@ const symbolValTypes = [
 ];
 
 describe('SymbolVal', () => {
-    forEach(symbolValTypes).it('valid with a value: %s', value => {
+    forEach(symbolValTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(symbolVal(value));
     });
 
-    forEach(getTypes(symbolValTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(symbolValTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(symbolVal(value));
     });
 });

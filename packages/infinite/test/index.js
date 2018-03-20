@@ -7,14 +7,14 @@ describe('Infinite', () => {
     forEach([
         Infinity,
         -Infinity
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(infinite(value));
     });
 
     forEach([
         Number.MAX_SAFE_INTEGER,
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(infinite(value));
     });
 });

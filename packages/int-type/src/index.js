@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function intType(input) {
-    return Number.isInteger(input);
-}
+export default (input) => Number.isInteger(input);

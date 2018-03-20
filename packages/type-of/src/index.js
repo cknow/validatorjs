@@ -6,8 +6,6 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function typeOf(input, [type]) {
-    /* eslint-disable valid-typeof */
-    return typeof input === type;
-    /* eslint-enable valid-typeof */
-}
+/* eslint-disable valid-typeof */
+export default (input, [type]) => typeof input === type;
+/* eslint-enable valid-typeof */

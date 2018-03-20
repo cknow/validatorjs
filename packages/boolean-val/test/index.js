@@ -23,11 +23,11 @@ const booleanValTypes = [
 ];
 
 describe('BooleanVal', () => {
-    forEach(booleanValTypes).it('valid with a value: %s', value => {
+    forEach(booleanValTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(booleanVal(value));
     });
 
-    forEach(getTypes(booleanValTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(booleanValTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(booleanVal(value));
     });
 });

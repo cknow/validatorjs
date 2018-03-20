@@ -9,7 +9,7 @@ describe('Luhn', () => {
         '340316193809364',
         '6011000990139424',
         '2223000048400011'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(luhn(value, [0]));
     });
 
@@ -19,7 +19,7 @@ describe('Luhn', () => {
         '6011000990139421',
         '2223000048400010',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(luhn(value));
     });
 });

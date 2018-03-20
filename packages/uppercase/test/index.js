@@ -10,7 +10,7 @@ describe('Uppercase', () => {
         '',
         ' ',
         '   '
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(uppercase(value));
     });
 
@@ -18,7 +18,7 @@ describe('Uppercase', () => {
         'foo',
         'Foo',
         ...getTypes(stringTypes)
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(uppercase(value));
     });
 });

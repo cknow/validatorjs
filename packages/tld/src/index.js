@@ -7,8 +7,8 @@ import search from '@validatorjs/search';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function tld(input) {
-    return search(input, [[
+export default (input) => {
+    const searcher = [
         'AAA',
         'AARP',
         'ABARTH',
@@ -1551,5 +1551,7 @@ export default function tld(input) {
         'ZONE',
         'ZUERICH',
         'ZW'
-    ]]);
-}
+    ];
+
+    return search(input, [searcher]);
+};

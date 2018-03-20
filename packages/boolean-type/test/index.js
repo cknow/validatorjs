@@ -4,11 +4,11 @@ import forEach from 'mocha-each';
 import booleanType from '../src';
 
 describe('BooleanType', () => {
-    forEach(booleanTypes).it('valid with a value: %s', value => {
+    forEach(booleanTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(booleanType(value));
     });
 
-    forEach(getTypes(booleanTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(booleanTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(booleanType(value));
     });
 });

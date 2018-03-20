@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function dateType(input) {
-    return input instanceof Date;
-}
+export default (input) => input instanceof Date;

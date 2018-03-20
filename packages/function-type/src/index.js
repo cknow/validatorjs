@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function functionType(input) {
-    return typeof input === 'function';
-}
+export default (input) => typeof input === 'function';

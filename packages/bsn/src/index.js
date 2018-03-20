@@ -7,7 +7,7 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function bsn(input) {
+export default (input) => {
     if (!(input = parseToCalculate(input, 9))) {
         return false;
     }
@@ -19,4 +19,4 @@ export default function bsn(input) {
     }
 
     return sum !== 0 && sum % 11 === 0;
-}
+};

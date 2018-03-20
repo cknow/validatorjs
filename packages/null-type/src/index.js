@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function nullType(input) {
-    return input === null;
-}
+export default (input) => input === null;

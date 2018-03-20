@@ -4,11 +4,11 @@ import forEach from 'mocha-each';
 import undefinedType from '../src';
 
 describe('UndefinedType', () => {
-    forEach(undefinedTypes).it('valid with a value: %s', value => {
+    forEach(undefinedTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(undefinedType(value));
     });
 
-    forEach(getTypes(undefinedTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(undefinedTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(undefinedType(value));
     });
 });

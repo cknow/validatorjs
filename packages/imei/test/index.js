@@ -13,7 +13,7 @@ describe('Imei', () => {
         350077523237513,
         356938035643809,
         490154203237518
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(imei(value));
     });
 
@@ -21,7 +21,7 @@ describe('Imei', () => {
         '490154203237512',
         '4901542032375125',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(imei(value));
     });
 });

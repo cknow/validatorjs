@@ -10,7 +10,7 @@ import scalar from '@validatorjs/scalar';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function search(input, [searcher, identical = false, contains = false] = []) {
+const search = (input, [searcher, identical = false, contains = false] = []) => {
     if (scalar(searcher) && scalar(input)) {
         /* istanbul ignore next */
         if (identical && typeof searcher !== typeof input) {
@@ -23,8 +23,10 @@ export default function search(input, [searcher, identical = false, contains = f
     }
 
     if (Array.isArray(searcher)) {
-        return searcher.findIndex(item => search(input, [item, identical, contains])) !== -1;
+        return searcher.findIndex((item) => search(input, [item, identical, contains])) !== -1;
     }
 
     return JSON.stringify(searcher) === JSON.stringify(input);
-}
+};
+
+export default search;

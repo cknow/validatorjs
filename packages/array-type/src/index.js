@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function arrayType(input) {
-    return Array.isArray(input);
-}
+export default (input) => Array.isArray(input);

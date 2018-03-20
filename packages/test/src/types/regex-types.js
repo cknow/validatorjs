@@ -1,4 +1,4 @@
-export const regexpTypes = [
+export const regexTypes = [
     /^/,
     RegExp(/^/),
     new RegExp(/^/)

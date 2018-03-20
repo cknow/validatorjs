@@ -8,6 +8,4 @@ import { getConstructor } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function constructorType(input, [type]) {
-    return getConstructor(input) === type;
-}
+export default (input, [type]) => getConstructor(input) === type;

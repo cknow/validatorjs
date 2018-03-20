@@ -5,7 +5,7 @@ import {
     dateTypes,
     nullTypes,
     objectTypes,
-    regexpTypes
+    regexTypes
 } from '@validatorjs/test';
 
 import forEach from 'mocha-each';
@@ -16,15 +16,15 @@ const objectValues = [
     ...dateTypes,
     ...nullTypes,
     ...objectTypes,
-    ...regexpTypes
+    ...regexTypes
 ];
 
 describe('ObjectType', () => {
-    forEach(objectValues).it('valid with a value: %s', value => {
+    forEach(objectValues).it('valid with a value: %s', (value) => {
         assert.isTrue(objectType(value));
     });
 
-    forEach(getTypes(objectValues)).it('invalid with a value: %s', value => {
+    forEach(getTypes(objectValues)).it('invalid with a value: %s', (value) => {
         assert.isFalse(objectType(value));
     });
 });

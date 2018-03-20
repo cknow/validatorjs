@@ -4,11 +4,11 @@ import forEach from 'mocha-each';
 import nullType from '../src';
 
 describe('NullType', () => {
-    forEach(nullTypes).it('valid with a value: %s', value => {
+    forEach(nullTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(nullType(value));
     });
 
-    forEach(getTypes(nullTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(nullTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(nullType(value));
     });
 });

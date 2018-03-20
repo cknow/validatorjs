@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function floatType(input) {
-    return Number.isFinite(input) && !Number.isInteger(input);
-}
+export default (input) => Number.isFinite(input) && !Number.isInteger(input);

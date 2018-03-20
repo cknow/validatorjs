@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function booleanType(input) {
-    return typeof input === 'boolean';
-}
+export default (input) => typeof input === 'boolean';

@@ -16,7 +16,7 @@ describe('Cnpj', () => {
         '12774546000189',
         '77456211000168',
         '02023077000102'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(cnpj(value));
     });
 
@@ -38,7 +38,7 @@ describe('Cnpj', () => {
         '84434895894444',
         '44242340000000',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(cnpj(value));
     });
 });

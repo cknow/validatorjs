@@ -10,11 +10,11 @@ const scalarTypes = [
 ];
 
 describe('Scalar', () => {
-    forEach(scalarTypes).it('valid with a value: %s', value => {
+    forEach(scalarTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(scalar(value));
     });
 
-    forEach(getTypes(scalarTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(scalarTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(scalar(value));
     });
 });

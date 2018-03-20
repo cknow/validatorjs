@@ -7,7 +7,7 @@ export * from './int-types';
 export * from './null-types';
 export * from './number-types';
 export * from './object-types';
-export * from './regexp-types';
+export * from './regex-types';
 export * from './string-types';
 export * from './symbol-types';
 export * from './undefined-types';

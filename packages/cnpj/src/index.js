@@ -7,7 +7,7 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function cnpj(input) {
+export default (input) => {
     if (!(input = parseToCalculate(input, 14))) {
         return false;
     }
@@ -34,4 +34,4 @@ export default function cnpj(input) {
     }
 
     return true;
-}
+};

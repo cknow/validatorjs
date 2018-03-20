@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function infinite(input) {
-    return input === Infinity || input === -Infinity;
-}
+export default (input) => input === Infinity || input === -Infinity;

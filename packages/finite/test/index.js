@@ -11,7 +11,7 @@ describe('Finite', () => {
         16,
         2,
         Number.MAX_SAFE_INTEGER
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(finite(value));
     });
 
@@ -24,7 +24,7 @@ describe('Finite', () => {
         ' ',
         '   ',
         ...getTypes([...numberTypes, ...stringTypes])
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(finite(value));
     });
 });

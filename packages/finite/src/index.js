@@ -7,6 +7,4 @@ import numberVal from '@validatorjs/number-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function finite(input) {
-    return numberVal(input) && Number.isFinite(Number(input));
-}
+export default (input) => numberVal(input) && Number.isFinite(Number(input));

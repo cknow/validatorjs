@@ -7,7 +7,7 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function nfeAccessKey(input) {
+export default (input) => {
     if (!(input = parseToCalculate(input, 44))) {
         return false;
     }
@@ -35,4 +35,4 @@ export default function nfeAccessKey(input) {
     z -= Math.floor(z / 11) * 11;
 
     return (z === 0 || z === 1 ? 0 : 11 - z) === Number(input[43]);
-}
+};

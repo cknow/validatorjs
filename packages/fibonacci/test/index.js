@@ -18,7 +18,7 @@ describe('Fibonacci', () => {
         '34',
         1346269,
         10610209857723
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(fibonacci(value));
     });
 
@@ -34,7 +34,7 @@ describe('Fibonacci', () => {
         ' ',
         '   ',
         ...getTypes([...numberTypes, ...stringTypes])
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(fibonacci(value));
     });
 });

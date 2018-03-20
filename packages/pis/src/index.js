@@ -7,7 +7,7 @@ import { parseToCalculate } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function pis(input) {
+export default (input) => {
     if (!(input = parseToCalculate(input, 11))) {
         return false;
     }
@@ -20,4 +20,4 @@ export default function pis(input) {
     }
 
     return Number(input[10]) === (summation % 11 < 2 ? 0 : 11 - (summation % 11));
-}
+};

@@ -6,7 +6,7 @@ import nfeAccessKey from '../src';
 describe('NfeAccessKey', () => {
     forEach([
         '52060433009911002506550120000007800267301615'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(nfeAccessKey(value));
     });
 
@@ -31,7 +31,7 @@ describe('NfeAccessKey', () => {
         '6098412281885524361833754087461339281130',
         '9025299113310221',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(nfeAccessKey(value));
     });
 });

@@ -12,7 +12,7 @@ describe('Unique', () => {
         [[0, 2.71, 3.14]],
         [[[], ['str'], [1]]],
         [[{ key: 'value' }, { otherKey: 'value' }]]
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(unique(value));
     });
 
@@ -25,7 +25,7 @@ describe('Unique', () => {
         [[[], [1], [1]]],
         [[{ key: 'value' }, { key: 'value' }]],
         ...getTypes(arrayTypes)
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(unique(value));
     });
 });

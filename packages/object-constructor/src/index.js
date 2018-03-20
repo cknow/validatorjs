@@ -7,6 +7,4 @@ import { getConstructor } from '@validatorjs/util';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function objectConstructor(input) {
-    return getConstructor(input) === Object;
-}
+export default (input) => getConstructor(input) === Object;

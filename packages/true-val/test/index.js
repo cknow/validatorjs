@@ -15,11 +15,11 @@ const trueValTypes = [
 ];
 
 describe('TrueVal', () => {
-    forEach(trueValTypes).it('valid with a value: %s', value => {
+    forEach(trueValTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(trueVal(value));
     });
 
-    forEach(getTypes(trueValTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(trueValTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(trueVal(value));
     });
 });

@@ -1,15 +1,13 @@
 {
-  "name": "@validatorjs/regexp-val",
+  "name": "@validatorjs/regex",
   "version": "0.0.0",
-  "description": "Validates whether the value of input is a regex.",
+  "description": "Evaluates a regex on the input and validates if matches.",
   "keywords": [
     "validatorjs",
     "rule",
-    "regexp-val",
-    "regexp",
-    "val"
+    "regex"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/regexp-val",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/regex",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"
@@ -41,7 +39,10 @@
     "pretest": "npm run lint",
     "test": "cross-env ../../node_modules/.bin/mocha --colors --require babel-core/register test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@validatorjs/regex-val": "^0.0.0",
+    "@validatorjs/scalar": "^0.0.0"
+  },
   "devDependencies": {
     "cross-env": "^5.1.3"
   },

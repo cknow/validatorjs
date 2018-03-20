@@ -19,11 +19,11 @@ export const negativeTypes = [
 ];
 
 describe('Negative', () => {
-    forEach(negativeTypes).it('valid with a value: %s', value => {
+    forEach(negativeTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(negative(value));
     });
 
-    forEach(getTypes(negativeTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(negativeTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(negative(value));
     });
 });

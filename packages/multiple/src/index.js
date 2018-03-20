@@ -8,7 +8,7 @@ import numberVal from '@validatorjs/number-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function multiple(input, [multipleOf]) {
+export default (input, [multipleOf]) => {
     if (!numberVal(input) || !numberVal(multipleOf)) {
         return false;
     }
@@ -18,4 +18,4 @@ export default function multiple(input, [multipleOf]) {
     }
 
     return input % multipleOf === 0;
-}
+};

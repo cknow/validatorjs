@@ -13,7 +13,7 @@ describe('Pesel', () => {
         '69090515504',
         '21120209256',
         '01320613891'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(pesel(value));
     });
 
@@ -25,7 +25,7 @@ describe('Pesel', () => {
         '21120209250',
         '01320613890',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(pesel(value));
     });
 });

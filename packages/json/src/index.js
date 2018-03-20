@@ -7,7 +7,7 @@ import objectType from '@validatorjs/object-type';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function json(input) {
+export default (input) => {
     try {
         const obj = JSON.parse(input);
 
@@ -15,4 +15,4 @@ export default function json(input) {
     } catch (e) { }
 
     return false;
-}
+};

@@ -15,7 +15,7 @@ describe('Cpf', () => {
         '86223423284',
         '24845408333',
         '95574461102'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(cpf(value));
     });
 
@@ -33,7 +33,7 @@ describe('Cpf', () => {
         '84434895894',
         '44242340000',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(cpf(value));
     });
 });

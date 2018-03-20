@@ -14,5 +14,5 @@ export function getTypes(except = []) {
         result = [...result, ...types[type]];
     }
 
-    return result.filter(value => !except.includes(value));
+    return result.filter((value) => !except.includes(value));
 }

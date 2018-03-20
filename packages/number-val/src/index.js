@@ -5,7 +5,7 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function numberVal(input) {
+export default (input) => {
     if (Number.isFinite(input)) {
         return true;
     }
@@ -15,4 +15,4 @@ export default function numberVal(input) {
     }
 
     return Number.isFinite(Number.parseFloat(input));
-}
+};

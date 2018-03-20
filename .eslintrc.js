@@ -5,6 +5,7 @@ module.exports = {
         '@cknow/eslint-config/plugins/node'
     ],
     rules: {
+        'arrow-parens': ['error', 'always'],
         'max-lines': 'off',
         'mocha/no-mocha-arrows': 'off',
 

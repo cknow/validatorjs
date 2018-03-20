@@ -6,10 +6,10 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function tryCatch(input, [...args] = []) {
+export default (input, [...args] = []) => {
     try {
         return input(...args);
     } catch (e) {}
 
     return false;
-}
+};

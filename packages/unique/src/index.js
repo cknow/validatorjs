@@ -5,17 +5,17 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function unique(input) {
+export default (input) => {
     if (!Array.isArray(input)) {
         return false;
     }
 
     const inputUnique = input
-        .map(value => JSON.stringify(value))
+        .map((value) => JSON.stringify(value))
         .reverse()
         .filter((e, i, a) => a.indexOf(e, i + 1) === -1)
         .reverse()
-        .map(value => JSON.parse(value));
+        .map((value) => JSON.parse(value));
 
     return JSON.stringify(input) === JSON.stringify(inputUnique);
-}
+};

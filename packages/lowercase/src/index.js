@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function lowercase(input) {
-    return input === String(input).toLocaleLowerCase();
-}
+export default (input) => input === String(input).toLocaleLowerCase();

@@ -7,6 +7,4 @@ import intVal from '@validatorjs/int-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function odd(input) {
-    return intVal(input) && input % 2 !== 0;
-}
+export default (input) => intVal(input) && input % 2 !== 0;

@@ -8,11 +8,11 @@ describe('Locale', () => {
         'en_US',
         'pt_BR',
         'fr_FR'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(locale(value));
     });
 
-    forEach(getTypes()).it('invalid with a value: %s', value => {
+    forEach(getTypes()).it('invalid with a value: %s', (value) => {
         assert.isFalse(locale(value));
     });
 });

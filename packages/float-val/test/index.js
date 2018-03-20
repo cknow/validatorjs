@@ -12,11 +12,11 @@ const floatValTypes = [
 ];
 
 describe('FloatVal', () => {
-    forEach(floatValTypes).it('valid with a value: %s', value => {
+    forEach(floatValTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(floatVal(value));
     });
 
-    forEach(getTypes(floatValTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(floatValTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(floatVal(value));
     });
 });

@@ -15,7 +15,7 @@ describe('Bsn', () => {
         '187368429',
         '541777348',
         '254283883'
-    ]).it('valid with a value: %s', value => {
+    ]).it('valid with a value: %s', (value) => {
         assert.isTrue(bsn(value));
     });
 
@@ -34,7 +34,7 @@ describe('Bsn', () => {
         '38240a678',
         'abcdefghi',
         ...getTypes()
-    ]).it('invalid with a value: %s', value => {
+    ]).it('invalid with a value: %s', (value) => {
         assert.isFalse(bsn(value));
     });
 });

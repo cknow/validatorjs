@@ -5,7 +5,7 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function regexpVal(input) {
+export default (input) => {
     try {
         RegExp(input);
 
@@ -13,4 +13,4 @@ export default function regexpVal(input) {
     } catch (e) {}
 
     return false;
-}
+};

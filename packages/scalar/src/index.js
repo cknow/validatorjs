@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function scalar(input) {
-    return /boolean|number|string/.test(typeof input);
-}
+export default (input) => /boolean|number|string/.test(typeof input);

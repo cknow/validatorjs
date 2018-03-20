@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function uppercase(input) {
-    return input === String(input).toLocaleUpperCase();
-}
+export default (input) => input === String(input).toLocaleUpperCase();

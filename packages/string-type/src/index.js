@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function stringType(input) {
-    return typeof input === 'string';
-}
+export default (input) => typeof input === 'string';

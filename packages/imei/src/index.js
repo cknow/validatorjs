@@ -7,6 +7,4 @@ import luhn from '@validatorjs/luhn';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function imei(input) {
-    return luhn(input, [15]);
-}
+export default (input) => luhn(input, [15]);

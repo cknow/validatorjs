@@ -7,8 +7,8 @@ import search from '@validatorjs/search';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function currencyCode(input) {
-    return search(input, [[
+export default (input) => {
+    const searcher = [
         'AED', // UAE Dirham
         'AFN', // Afghani
         'ALL', // Lek
@@ -187,5 +187,7 @@ export default function currencyCode(input) {
         'ZAR', // Rand
         'ZMW', // Zambian Kwacha
         'ZWL' // Zimbabwe Dollar
-    ]]);
-}
+    ];
+
+    return search(input, [searcher]);
+};

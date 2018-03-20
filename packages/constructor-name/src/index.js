@@ -6,10 +6,10 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function constructorName(input, [name]) {
+export default (input, [name]) => {
     try {
         return String(input.constructor.name).toLocaleLowerCase() === String(name).toLocaleLowerCase();
     } catch (e) {}
 
     return false;
-}
+};

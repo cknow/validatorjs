@@ -7,6 +7,4 @@ import search from '@validatorjs/search';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function trueVal(input) {
-    return search(input, [[1, true, 'on', 'yes', 'y', 's']]);
-}
+export default (input) => search(input, [[1, true, 'on', 'yes', 'y', 's']]);

@@ -8,7 +8,7 @@ import intVal from '@validatorjs/int-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function falseVal(input, [dividend]) {
+export default (input, [dividend]) => {
     if (dividend === 0) {
         return true;
     }
@@ -18,4 +18,4 @@ export default function falseVal(input, [dividend]) {
     }
 
     return intVal(Math.abs(dividend) / Math.abs(Number(input)));
-}
+};

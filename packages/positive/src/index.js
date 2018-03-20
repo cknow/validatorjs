@@ -7,6 +7,4 @@ import numberVal from '@validatorjs/number-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function positive(input) {
-    return numberVal(input) && input > 0;
-}
+export default (input) => numberVal(input) && input > 0;

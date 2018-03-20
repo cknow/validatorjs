@@ -5,6 +5,4 @@
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function symbolType(input) {
-    return typeof input === 'symbol';
-}
+export default (input) => typeof input === 'symbol';

@@ -16,11 +16,11 @@ const intValTypes = [
 ];
 
 describe('IntVal', () => {
-    forEach(intValTypes).it('valid with a value: %s', value => {
+    forEach(intValTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(intVal(value));
     });
 
-    forEach(getTypes(intValTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(intValTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(intVal(value));
     });
 });

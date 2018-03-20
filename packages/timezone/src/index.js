@@ -7,8 +7,8 @@ import search from '@validatorjs/search';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function timezone(input) {
-    return search(input, [[
+export default (input) => {
+    const searcher = [
         'Africa/Abidjan',
         'Africa/Accra',
         'Africa/Addis_Ababa',
@@ -585,5 +585,7 @@ export default function timezone(input) {
         'W-SU',
         'WET',
         'Zulu'
-    ]]);
-}
+    ];
+
+    return search(input, [searcher]);
+};

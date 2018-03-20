@@ -7,7 +7,7 @@ import numberVal from '@validatorjs/number-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function fibonacci(input) {
+export default (input) => {
     if (!numberVal(input)) {
         return false;
     }
@@ -21,4 +21,4 @@ export default function fibonacci(input) {
     }
 
     return sequence[position] === Number(input);
-}
+};

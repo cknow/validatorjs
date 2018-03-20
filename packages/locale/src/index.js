@@ -7,8 +7,8 @@ import search from '@validatorjs/search';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function locale(input) {
-    return search(input, [[
+export default (input) => {
+    const searcher = [
         'aa_DJ',
         'aa_ER',
         'aa_ET',
@@ -248,5 +248,7 @@ export default function locale(input) {
         'zh_SG',
         'zh_TW',
         'zu_ZA'
-    ]]);
-}
+    ];
+
+    return search(input, [searcher]);
+};

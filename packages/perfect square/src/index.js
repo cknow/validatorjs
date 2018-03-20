@@ -7,6 +7,4 @@ import intVal from '@validatorjs/int-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function perfectSquare(input) {
-    return intVal(input) && Math.floor(Math.sqrt(input)) === Math.sqrt(input);
-}
+export default (input) => intVal(input) && Math.floor(Math.sqrt(input)) === Math.sqrt(input);

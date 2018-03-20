@@ -19,11 +19,11 @@ const positiveTypes = [
 ];
 
 describe('Positive', () => {
-    forEach(positiveTypes).it('valid with a value: %s', value => {
+    forEach(positiveTypes).it('valid with a value: %s', (value) => {
         assert.isTrue(positive(value));
     });
 
-    forEach(getTypes(positiveTypes)).it('invalid with a value: %s', value => {
+    forEach(getTypes(positiveTypes)).it('invalid with a value: %s', (value) => {
         assert.isFalse(positive(value));
     });
 });

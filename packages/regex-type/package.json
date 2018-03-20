@@ -1,15 +1,15 @@
 {
-  "name": "@validatorjs/regexp-type",
+  "name": "@validatorjs/regex-type",
   "version": "0.0.0",
-  "description": "Validates whether the type of an input is a regexp.",
+  "description": "Validates whether the type of an input is a regex.",
   "keywords": [
     "validatorjs",
     "rule",
-    "regexp-type",
-    "regexp",
+    "regex-type",
+    "regex",
     "type"
   ],
-  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/regexp-type",
+  "homepage": "https://github.com/cknow/validatorjs/tree/master/packages/regex-type",
   "bugs": {
     "url": "https://github.com/cknow/validatorjs/issues",
     "email": "ricardo@clicknow.com.br"

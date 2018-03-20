@@ -8,6 +8,4 @@ import numberVal from '@validatorjs/number-val';
  *
  * @return {boolean} Returns true if validate otherwise false.
  */
-export default function floatVal(input) {
-    return numberVal(input) && floatType(Number.parseFloat(input));
-}
+export default (input) => numberVal(input) && floatType(Number.parseFloat(input));

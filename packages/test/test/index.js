@@ -3,12 +3,12 @@ import forEach from 'mocha-each';
 
 describe('StringType', () => {
     forEach([
-    ]).it('valid', value => {
+    ]).it('valid', (value) => {
         assert.isTrue(true);
     });
 
     forEach([
-    ]).it('invalid', value => {
+    ]).it('invalid', (value) => {
         assert.isFalse(false);
     });
 });
